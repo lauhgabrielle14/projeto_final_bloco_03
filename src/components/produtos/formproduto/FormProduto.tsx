@@ -71,7 +71,6 @@ function FormProduto() {
 		let valor: string | number = value
 
 		if (["number", "range"].includes(type) || (!isNaN(Number(value)) && value !== "")) {
-			// Remove zeros à esquerda mantendo pelo menos um dígito
 			const valorSemZeros = value.replace(/^0+(?!$)/, "") || "0"
 			valor = parseFloat(Number(valorSemZeros).toFixed(2))
 		}
