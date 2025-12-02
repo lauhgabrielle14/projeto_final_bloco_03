@@ -10,6 +10,8 @@ import DeletarProduto from "./components/produtos/deletarprodutos/DeletarProduto
 import FormProduto from "./components/produtos/formproduto/FormProduto"
 import ListarProdutos from "./components/produtos/listarprodutos/ListarProdutos"
 
+//Criando rotas (Home, Categorias, Produtos)
+
 /** 
  * Tipo (type) para controlar o estado do Menu Mobile (aberto ou fechado)
  * 
