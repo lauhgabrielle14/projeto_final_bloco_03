@@ -1,6 +1,8 @@
 import { MagnifyingGlassIcon } from "@phosphor-icons/react";
 import type { FormEvent } from "react";
 
+//Cosntrução SearchForm
+
 function SearchForm({ className = "" }: { className?: string }) {
 
     function buscarProdutos(e: FormEvent<HTMLFormElement>){

@@ -3,6 +3,8 @@ import { useRef } from "react";
 import { Link } from "react-router-dom";
 import SearchForm from "./SearchForm";
 
+//Contrução Navbar 
+
 /** 
  * Tipo (type) para controlar o estado do Menu Mobile (aberto ou fechado)
  * 
@@ -123,7 +125,7 @@ function Navbar({ menuState, onMenuToggle, onMenuClose }: Readonly<NavbarProps>)
                             <SearchForm />
                         </div>
                         
-                        {/* Links de navegação mobile */}
+                        {/* Links de navegação mobile OK */}
                         <Link to='/home' onClick={handleMenuClose} className="py-2 text-white hover:text-gray-300">
                             Home
                         </Link>
