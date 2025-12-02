@@ -22,29 +22,6 @@ React Spinners
 
 Git & GitHub
 
-📁 Estrutura Geral do Projeto
-src/
- ├── components/
- │    ├── navbar/
- │    ├── footer/
- │    ├── categorias/
- │    │     ├── listarcategorias/
- │    │     ├── formcategoria/
- │    │     └── deletarcategorias/
- │    └── produtos/
- │          ├── listarprodutos/
- │          ├── formproduto/
- │          └── deletarprodutos/
- ├── pages/
- │    └── home/
- ├── services/
- │    └── Service.ts
- ├── models/
- │    ├── Categoria.ts
- │    └── Produto.ts
- ├── App.tsx
- └── main.tsx
-
 📌 Objetivos do Projeto
 ✔️ Etapa 1 – Construção da Base da Aplicação
 
@@ -65,8 +42,6 @@ Versionar o projeto no GitHub
 ✔️ Etapa 2 – Configuração das Rotas
 
 Criar rotas principais:
-
-/
 
 /home
 
@@ -106,24 +81,8 @@ Criar rotas específicas
 
 Integrar com o backend via CRUD completo
 
-🌐 Rotas Configuradas
-🏠 Rotas principais
-Rota	Componente
-/	Home
-/home	Home
-📦 Categorias
-Rota	Componente
-/categorias	ListarCategorias
-/cadcategoria	FormCategoria
-/editarcategoria/:id	FormCategoria
-/deletarcategoria/:id	DeletarCategoria
-🛒 Produtos (extras)
-Rota	Componente
-/produtos	ListarProdutos
-/cadproduto	FormProduto
-/editarproduto/:id	FormProduto
-/deletarproduto/:id	DeletarProduto
 🔧 Como rodar o projeto
+
 1️⃣ Clonar o repositório
 git clone https://github.com/SEU-USUARIO/projeto_final_bloco_03.git
 
