@@ -1,73 +1,152 @@
-# React + TypeScript + Vite
+🏥 Projeto Final – Bloco 03 – Farmácia (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto faz parte da avaliação final do Bloco 03 do curso Java Full Stack - Generation, cujo objetivo é implementar uma aplicação frontend utilizando React, consumindo o backend da Farmácia desenvolvido no Bloco 02.
 
-Currently, two official plugins are available:
+A aplicação realiza o CRUD completo de Categorias, além de rotas configuradas, componentes estruturais e estilização com TailwindCSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Tecnologias utilizadas
 
-## React Compiler
+React + Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+TypeScript
 
-## Expanding the ESLint configuration
+TailwindCSS
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Axios
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+React Router DOM
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Phosphor Icons
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+React Spinners
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Git & GitHub
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+📌 Objetivos do Projeto
+✔️ Etapa 1 – Construção da Base da Aplicação
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Criar o projeto com Vite
+
+Configurar TailwindCSS
+
+Criar e estilizar:
+
+Navbar
+
+Home
+
+Footer
+
+Versionar o projeto no GitHub
+
+✔️ Etapa 2 – Configuração das Rotas
+
+Criar rotas principais:
+
+/home
+
+Adicionar rotas no componente App.tsx
+
+Criar navegação funcional via React Router DOM
+
+✔️ Etapa 3 – Consumo da API da Farmácia
+
+Criar models:
+
+Categoria
+
+Produto
+
+Criar Service com Axios configurado
+
+Implementar métodos:
+
+buscar()
+
+cadastrar()
+
+atualizar()
+
+deletar()
+
+Construir componentes:
+
+ListarCategorias
+
+FormCategoria (POST e PUT)
+
+DeletarCategoria
+
+Criar rotas específicas
+
+Integrar com o backend via CRUD completo
+
+
+🔧 Como rodar o projeto
+
+1️⃣ Clonar o repositório
+git clone https://github.com/SEU-USUARIO/projeto_final_bloco_03.git
+
+2️⃣ Instalar dependências
+npm install
+
+3️⃣ Rodar o servidor de desenvolvimento
+npm run dev
+
+4️⃣ Acessar no navegador
+http://localhost:5173
+
+
+🔗 Integração com API
+
+Este projeto consome a API da Farmácia hospedada no Render:
+
+https://<link-do-backend>/categoria
+
+
+A service utiliza Axios com todas as operações REST:
+
+GET → listar
+
+POST → cadastrar
+
+PUT → atualizar
+
+DELETE → excluir
+
+
+⚙️ Funcionalidades do Projeto
+
+📋 Listagem de categorias
+
+➕ Cadastro de novas categorias
+
+✏️ Edição de categorias existentes
+
+❌ Exclusão com confirmação
+
+🎨 Estilização com Tailwind
+
+📱 Menu mobile responsivo
+
+🔄 Feedback visual com React Spinners
+
+🧪 Avaliação obrigatória
+
+Este projeto avalia:
+
+👉 React (componentização)
+
+👉 Hooks
+
+👉 Axios (consumo de API REST)
+
+👉 React Router DOM (rotas)
+
+👉 Tailwind (estilização)
+
+👉 Organização e boas práticas
+
+👉 Versionamento Git
+
+👨🏻‍💻 Desenvolvido por: Lauren Fogaça (Com suporte ao código e aulas de Rafael Queiróz)
