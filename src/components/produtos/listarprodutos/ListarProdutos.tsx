@@ -4,6 +4,8 @@ import type Produto from '../../../models/Produto'
 import { listar } from '../../../services/Service'
 import CardProdutos from '../cardprodutos/CardProdutos'
 
+//Componente para listar produtos
+
 function ListarProdutos() {
 	const [produtos, setProdutos] = useState<Produto[]>([])
 	const [isLoading, setIsLoading] = useState<boolean>(false)

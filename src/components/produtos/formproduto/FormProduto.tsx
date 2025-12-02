@@ -7,6 +7,8 @@ import type Categoria from "../../../models/Categoria"
 import type Produto from "../../../models/Produto"
 import { ClipLoader } from "react-spinners"
 
+//Formulário para criação e edição de produtos
+
 function FormProduto() {
 	const navigate = useNavigate()
 

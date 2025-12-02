@@ -4,6 +4,7 @@ import { deletar, listar } from "../../../services/Service"
 import type Produto from "../../../models/Produto"
 import { ClipLoader } from "react-spinners"
 
+//Componente para deletar produtos
 
 function DeletarProduto() {
 

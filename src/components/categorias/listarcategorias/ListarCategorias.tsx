@@ -4,6 +4,8 @@ import type Categoria from "../../../models/Categoria"
 import { listar } from "../../../services/Service"
 import CardCategorias from "../cardcategorias/CardCategorias"
 
+//Componente para listar categorias
+
 function ListarCategorias() {
 	const [isLoading, setIsLoading] = useState(true)
 

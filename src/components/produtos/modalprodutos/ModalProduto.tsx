@@ -3,6 +3,8 @@
 import 'reactjs-popup/dist/index.css';
 import FormProduto from '../formproduto/FormProduto';
 
+// Componente de modal para adicionar um novo produto
+
 function ModalProduto() {
     return (
         <>
