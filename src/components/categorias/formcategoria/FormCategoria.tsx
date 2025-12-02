@@ -4,6 +4,8 @@ import { ClipLoader } from "react-spinners";
 import type Categoria from "../../../models/Categoria";
 import { atualizar, cadastrar, listar } from "../../../services/Service";
 
+//Formulário para criação e edição de categorias
+
 function FormCategoria() {
 
   const navigate = useNavigate();

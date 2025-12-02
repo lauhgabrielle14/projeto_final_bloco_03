@@ -2,6 +2,8 @@
 import { Link } from 'react-router-dom'
 import type Produto from '../../../models/Produto'
 
+//Cartão de exibição de produtos
+
 interface CardProdutoProps {
 	produto: Produto
 }

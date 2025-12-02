@@ -1,6 +1,8 @@
 ﻿import { Link } from "react-router-dom";
 import type Categoria from "../../../models/Categoria"
 
+//Cartão de exibição de categorias
+
 interface CardCategoriaProps {
     categoria: Categoria
   }
