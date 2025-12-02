@@ -1,6 +1,6 @@
 🏥 Projeto Final – Bloco 03 – Farmácia (React + Vite)
 
-Este projeto faz parte da avaliação final do Bloco 03 do curso, cujo objetivo é implementar uma aplicação frontend utilizando React, consumindo o backend da Farmácia desenvolvido no Bloco 02.
+Este projeto faz parte da avaliação final do Bloco 03 do curso Java Full Stack - Generation, cujo objetivo é implementar uma aplicação frontend utilizando React, consumindo o backend da Farmácia desenvolvido no Bloco 02.
 
 A aplicação realiza o CRUD completo de Categorias, além de rotas configuradas, componentes estruturais e estilização com TailwindCSS.
 
@@ -81,6 +81,7 @@ Criar rotas específicas
 
 Integrar com o backend via CRUD completo
 
+
 🔧 Como rodar o projeto
 
 1️⃣ Clonar o repositório
@@ -94,6 +95,7 @@ npm run dev
 
 4️⃣ Acessar no navegador
 http://localhost:5173
+
 
 🔗 Integração com API
 
@@ -112,6 +114,7 @@ PUT → atualizar
 
 DELETE → excluir
 
+
 ⚙️ Funcionalidades do Projeto
 
 📋 Listagem de categorias
@@ -129,6 +132,7 @@ DELETE → excluir
 🔄 Feedback visual com React Spinners
 
 🧪 Avaliação obrigatória
+
 
 Este projeto avalia:
 
