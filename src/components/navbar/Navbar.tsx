@@ -3,6 +3,8 @@ import { useRef } from "react";
 import { Link } from "react-router-dom";
 import SearchForm from "./SearchForm";
 
+//Contrução Navbar 
+
 /** 
  * Tipo (type) para controlar o estado do Menu Mobile (aberto ou fechado)
  * 

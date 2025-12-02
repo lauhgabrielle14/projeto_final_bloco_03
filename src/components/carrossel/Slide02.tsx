@@ -13,7 +13,7 @@ function Slide02() {
 
 				<div className="flex justify-center items-center w-full">
 					<img
-						src="https://ik.imagekit.io/vzr6ryejm/games/perifericos.png?updatedAt=1714810226671"
+						src="https://ik.imagekit.io/laurengf/Farmacia_pg/itens.png"
 						alt="Imagem Página Home"
 						className="w-2/3 md:w-2/3 mx-auto h-52 md:h-80 lg:h-96 object-contain"
 					/>

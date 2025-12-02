@@ -1,6 +1,7 @@
 ﻿import Carrossel from "../../components/carrossel/Carrossel"
 import ListarProdutos from "../../components/produtos/listarprodutos/ListarProdutos"
 
+//Construção do componente Home
 
 function Home() {
 	return (

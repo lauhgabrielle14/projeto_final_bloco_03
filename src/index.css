@@ -41,6 +41,10 @@
     margin: 0;
   }
 
+/*
+  Correção da linha appearance: textfield; por causa do erro que estava dando
+*/
+
   input[type="number"] {
     appearance: textfield;
     -moz-appearance: textfield;
