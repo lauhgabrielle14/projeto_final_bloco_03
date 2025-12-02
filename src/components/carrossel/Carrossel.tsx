@@ -4,7 +4,6 @@ import useEmblaCarousel from "embla-carousel-react"
 import { useEffect, useState } from "react"
 import Slide01 from "./Slide01"
 import Slide02 from "./Slide02"
-import Slide03 from "./Slide03"
 
 /**
  * Componente de carrossel responsivo com funcionalidades de:
@@ -138,13 +137,6 @@ function Carrossel() {
 					<div className="flex-[0_0_100%]">
 						<article className="overflow-hidden max-h-[70vh] flex flex-col">
 							<Slide02 />
-						</article>
-					</div>
-					
-					{/* Slide 3 */}
-					<div className="flex-[0_0_100%]">
-						<article className="overflow-hidden max-h-[70vh] flex flex-col">
-							<Slide03 />
 						</article>
 					</div>
 

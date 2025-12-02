@@ -9,7 +9,7 @@ function CardCategorias({categoria}: Readonly<CardCategoriaProps>) {
     return (
         <div className='border flex flex-col rounded-2xl overflow-hidden justify-between'>
             <header className='py-2 px-6 bg-slate-700  text-white font-bold text-2xl'>Categoria</header>
-            <p className='p-8 text-3xl bg-white h-full'>{categoria.tipo}</p>
+            <p className='p-8 text-3xl bg-white h-full'>{categoria.nome}</p>
             <div className="flex">
                 <Link to={`/editarcategoria/${categoria.id}`}
                     className='w-full text-slate-100 bg-teal-600 hover:bg-teal-700 

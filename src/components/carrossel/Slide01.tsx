@@ -6,10 +6,10 @@ function Slide01() {
 			<div className="container grid grid-cols-1 md:grid-cols-2 text-white">
 				<div className="flex flex-col gap-0 md:gap-1 items-center justify-center py-0 md:py-1">
 					<h2 className="text-3xl md:text-5xl font-bold text-center">
-						Seja bem vinde!
+						Seja bem vindo!
 					</h2>
 					<p className="text-lg md:text-xl text-center">
-						Aqui você encontra os melhores Games!
+						Aqui você encontra os produtos para sua saúde!
 					</p>
 
 					<div className="flex justify-around gap-4 w-full">
@@ -21,7 +21,7 @@ function Slide01() {
 
 				<div className="flex justify-center items-center w-full">
 					<img
-						src="https://ik.imagekit.io/vzr6ryejm/games/home.png?updatedAt=1705970755605"
+						src="https://ik.imagekit.io/laurengf/Farmacia_pg/cuidados.png"
 						alt="Imagem Página Home"
 						className="w-2/3 md:w-2/3 mx-auto h-52 md:h-80 lg:h-96 object-contain"
 					/>

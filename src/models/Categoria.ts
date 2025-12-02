@@ -2,6 +2,6 @@
 
 export default interface Categoria {
     id: number | undefined;
-    tipo: string;
+    nome: string;
     produto?: Produto[];
 }

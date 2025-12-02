@@ -61,10 +61,10 @@ function Navbar({ menuState, onMenuToggle, onMenuClose }: Readonly<NavbarProps>)
             {/* Navbar fixa no topo, visível em todas as telas */}
             <div className='fixed top-0 left-0 z-50 flex justify-center w-full py-4 text-white bg-slate-800 md:py-2'>
                 <div className="container flex items-center justify-between mx-6 mt-2 text-lg">
-                    {/* Logo da loja, sempre visível, redireciona para Home */}
+                    {/* Logo da farmácia, sempre visível, redireciona para Home */}
                     <Link to='/home'>
                         <img
-                            src="https://ik.imagekit.io/vzr6ryejm/games/logolg.png"
+                            src="https://ik.imagekit.io/laurengf/Farmacia_pg/logo.png?updatedAt=1764689632447"
                             alt="Logo"
                             className='w-50 md:w-60'
                         />
@@ -104,7 +104,7 @@ function Navbar({ menuState, onMenuToggle, onMenuClose }: Readonly<NavbarProps>)
                         {/* Linha com logo à esquerda e botão X à direita */}
                         <div className="flex items-center justify-between w-full mb-2">
                           <img
-                              src="https://ik.imagekit.io/vzr6ryejm/games/logolg.png"
+                              src="https://ik.imagekit.io/laurengf/Farmacia_pg/logo.png?updatedAt=1764689632447"
                               alt="Logo"
                               className='w-50 md:w-60'
                           />

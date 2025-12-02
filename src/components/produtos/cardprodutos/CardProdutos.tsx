@@ -43,7 +43,7 @@ function CardProdutos({ produto }: Readonly<CardProdutoProps>) {
 						}).format(produto.preco)}
 					</h3>
 					<p className="text-sm italic text-center">
-						Categoria: {produto.categoria?.tipo}
+						Categoria: {produto.categoria?.nome}
 					</p>
 				</div>
 			</div>

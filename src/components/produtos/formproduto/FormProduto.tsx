@@ -15,7 +15,7 @@ function FormProduto() {
 
 	const [categoria, setCategoria] = useState<Categoria>({
 		id: 0,
-		tipo: "",
+		nome: "",
 	})
 	const [produto, setProduto] = useState<Produto>({} as Produto)
 
@@ -185,7 +185,7 @@ function FormProduto() {
 						</option>
 						{categorias.map((categoria) => (
 							<option key={categoria.id} value={categoria.id}>
-								{categoria.tipo}
+								{categoria.nome}
 							</option>
 						))}
 					</select>
